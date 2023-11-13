@@ -57,3 +57,9 @@ function showMovies(data) {
         moviesEl.appendChild(movieEl)
     });
 }
+
+document.getElementById ('searchButton').addEventListener('click' , function() {
+function performSearch() {
+    var searchQuery = document.getElementById('searchInput').value;
+}
+});
